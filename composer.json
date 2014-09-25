@@ -1,0 +1,41 @@
+
+{
+    "name": "mrtool/contao-google-custom-search",
+    "description": "Frontend Module for Google Custom Search",
+    "keywords": ["contao", "google", "search", "custom"],
+    "type": "contao-module",
+    "homepage": "http://www.r2pi.de",
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "Martin Treml",
+            "homepage": "http://www.r2pi.de",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/MrTool/contao-Toolbox/issues",
+        "irc": "irc://irc.freenode.org/contao.dev",
+        "source": "https://github.com/MrTool/contao-Toolbox",
+        "forum": "https://community.contao.org/de/forumdisplay.php?119-Sonstige-Erweiterungen"
+    },
+    "require": {
+        "php": ">=5.3",
+        "contao/core": ">=3,<4",
+        "contao-community-alliance/composer-installer": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "MrTool\\Google\\CustomSearch": "src/"
+        }
+    },
+    "replace": {
+    },
+    "extra": {
+        "contao": {
+            "sources": {
+                "contao": "system/modules/google-custom-search"
+            }
+        }
+    }
+}

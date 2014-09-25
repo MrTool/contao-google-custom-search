@@ -1,0 +1,10 @@
+
+<!-- indexer::stop -->
+<div class="<?php echo $this->class; ?> block"<?php echo $this->cssID; ?><?php if ($this->style): ?> style="<?php echo $this->style; ?>"<?php endif; ?>>
+
+    <?php /* add JS */ if(!is_null($this->gcs_js)){ echo $this->gcs_js; } ?>
+
+    <div class="<?php echo $this->GSE->class ?>" <?php echo $this->GSE->getParsedDataAttributes() ?>></div>
+<!---->
+</div>
+<!-- indexer::start -->
