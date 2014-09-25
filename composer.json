@@ -14,9 +14,9 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/MrTool/contao-Toolbox/issues",
+        "issues": "https://github.com/MrTool/contao-google-custom-search/issues",
         "irc": "irc://irc.freenode.org/contao.dev",
-        "source": "https://github.com/MrTool/contao-Toolbox",
+        "source": "https://github.com/MrTool/contao-google-custom-search",
         "forum": "https://community.contao.org/de/forumdisplay.php?119-Sonstige-Erweiterungen"
     },
     "require": {
