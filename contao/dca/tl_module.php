@@ -15,7 +15,7 @@
 /**
  * Palette definition
  */
-$GLOBALS['TL_DCA']['tl_module']['palettes']['gcs_searchEngine'] = '{title_legend},name,gcs_type,type;{gcs_legend},gcs_engineID,gcs_queryParameterName,gcs_gname,gcs_newWindow,gcs_resultsUrl;{gcs_result_legend},gcs_linkTarget;{template_legend},gcs_modTemplate;';
+$GLOBALS['TL_DCA']['tl_module']['palettes']['gcs_searchEngine'] = '{title_legend},name,gcs_type,type;{gcs_legend},gcs_engineID,gcs_queryParameterName,gcs_gname,gcs_newWindow,gcs_resultsUrl;{gcs_result_legend},gcs_linkTarget;{template_legend},gcs_modTemplate;{expert_legend:hide},cssID';
 
 /**
  * Field definition
