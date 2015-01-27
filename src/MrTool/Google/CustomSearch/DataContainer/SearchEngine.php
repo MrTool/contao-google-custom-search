@@ -199,6 +199,11 @@ class SearchEngine extends \Controller
             case 'gcs_newWindow':
                 $value = $value ? 'true' : null;
                 break;
+
+
+            case 'gcs_as_sitesearch':
+                $value = $value ? \Environment::get('base').$GLOBALS['TL_LANGUAGE'].$value : '';
+                break;
         }
 
         return $value;
