@@ -42,7 +42,7 @@ class SearchEngine extends \Controller
     /**
      * @var array of special attribute parsing
      */
-    protected $specialAttributes = array('gcs_resultsUrl', 'gcs_newWindow', 'gcs_gname');
+    protected $specialAttributes = array('gcs_resultsUrl', 'gcs_newWindow', 'gcs_gname', 'gcs_as_sitesearch');
 
     /**
      * Create an SearchEngine DataContainer

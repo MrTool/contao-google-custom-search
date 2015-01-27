@@ -35,6 +35,7 @@ $GLOBALS['TL_LANG']['tl_module']['gcs_resultsUrl'] = array('Weiterleitungsseite'
 $GLOBALS['TL_LANG']['tl_module']['gcs_gname'] = array('Link Name', 'Beschreibt ob 2 Suchmaschinen zusammengehören. Es muss bei beiden eine Weiterleitungsseite gesetzt sein damit dieses Feld funktioniert!');
 $GLOBALS['TL_LANG']['tl_module']['gcs_linkTarget'] = array('Ergebnis Link Ziel', 'Hier können Sie auswählen wie die Links im Ergebnis sich verhalten');
 $GLOBALS['TL_LANG']['tl_module']['gcs_newWindow'] = array('Neues Fenster', 'Soll die Suchergebnis Seite in einem neuen Fenster geöffnet werden?');
+$GLOBALS['TL_LANG']['tl_module']['gcs_as_sitesearch'] = array('Ergebnis auf Seite einschränken', 'Geben Sie hier eine Unterseite an um die Ergebnisse darauf zu beschränken z.b.: /blog/* - nur ergebnisse anzeigen welche unter http://example.com/blog/* sind');
 
 /**
  * References

@@ -15,7 +15,7 @@
 /**
  * Palette definition
  */
-$GLOBALS['TL_DCA']['tl_module']['palettes']['gcs_searchEngine'] = '{title_legend},name,gcs_type,type;{gcs_legend},gcs_engineID,gcs_queryParameterName,gcs_gname,gcs_newWindow,gcs_resultsUrl;{gcs_result_legend},gcs_linkTarget;{template_legend},gcs_modTemplate;{expert_legend:hide},cssID';
+$GLOBALS['TL_DCA']['tl_module']['palettes']['gcs_searchEngine'] = '{title_legend},name,gcs_type,type;{gcs_legend},gcs_engineID,gcs_queryParameterName,gcs_gname,gcs_newWindow,gcs_resultsUrl;{gcs_result_legend},gcs_linkTarget,gcs_as_sitesearch;{template_legend},gcs_modTemplate;{expert_legend:hide},cssID';
 
 /**
  * Field definition
@@ -81,4 +81,11 @@ $GLOBALS['TL_DCA']['tl_module']['fields']['gcs_resultsUrl'] = array(
     'eval' => array('fieldType' => 'radio'),
     'sql' => "int(10) unsigned NOT NULL default '0'",
     'relation' => array('type' => 'hasOne', 'load' => 'eager')
+);
+
+$GLOBALS['TL_DCA']['tl_module']['fields']['gcs_as_sitesearch'] = array(
+    'label' => &$GLOBALS['TL_LANG']['tl_module']['gcs_as_sitesearch'],
+    'inputType' => 'text',
+    'eval' => array('tl_class' => 'w50'),
+    'sql' => "varchar(255) NOT NULL default ''"
 );
